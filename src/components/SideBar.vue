@@ -32,6 +32,27 @@
                 <div class="text-center q-py-md">
                     <q-btn color="light-blue-8" icon="fas fa-cloud-upload-alt" label="Upload" class="q-px-lg"></q-btn>
                 </div>
+                <q-item clickable active-class="my-menu-link" v-ripple :active="link === 'My page'" @click="link = 'My page'">
+                    <q-item-section avatar>
+                        <q-icon name="fas fa-book" />
+                    </q-item-section>
+                    <q-item-section>
+                        <q-item-label>My page</q-item-label>
+                    </q-item-section>
+                </q-item>
+                <q-item clickable
+                active-class="my-menu-link"
+                v-ripple
+                :active="link === 'Dashboard'"
+                @click="link = 'Dashboard'">
+
+                <q-item-section avatar>
+                    <q-icon name="fas fa-tachometer-alt" />
+                </q-item-section>
+                <q-item-section>
+                    <q-item-label>Dashboard</q-item-label>
+                </q-item-section>
+                </q-item>
             </q-list>
         </q-drawer>
     </nav>
