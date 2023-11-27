@@ -1,4 +1,4 @@
-# Quasar App (wewe)
+# Quasar App
 
 A Quasar Project
 
