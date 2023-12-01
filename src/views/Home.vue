@@ -40,6 +40,17 @@
                 <q-item-section class="text-center" caption>Reposts</q-item-section>
                 </q-item-section>
             </q-item>
+            <q-separator />
+            <q-item>
+                <q-item-section>
+                    <q-btn color="primary" icon="mail" label="Message" flat />
+                </q-item-section>
+                <q-item-section>
+                    <q-btn-section>
+                        <q-btn color="grey" label="Follow" />
+                    </q-btn-section>
+                </q-item-section>
+            </q-item>
             </q-card>
         </div>
         </div>
